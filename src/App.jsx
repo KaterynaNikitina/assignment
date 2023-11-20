@@ -32,8 +32,8 @@ function App() {
       <h1>Monday Assignment</h1>
       <div className="counter">Counter: {counter}</div>
       <div className="reset-button-div">
-      <button type="button" onClick={toggleRunning}>START</button>
-      <button type="button" onClick={toggleRunning}>STOP</button>
+      <button type="button" onClick={toggleRunning} disabled={running}>START</button>
+      <button type="button" onClick={toggleRunning} disabled={!running}>STOP</button>
       <button type="button" onClick={handleReset}>RESET</button>
       </div>
     </>
