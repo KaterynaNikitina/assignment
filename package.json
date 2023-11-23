@@ -1,6 +1,7 @@
 {
   "name": "assignment",
   "private": true,
+  "homepage": "https://katerynanikitina.github.io/assignment/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
